@@ -10,12 +10,12 @@ def convert_mp4_to_mp3(input_file, output_file):
     except subprocess.CalledProcessError as e:
         print(f"Error during conversion: {e}")
 
-input_file = input("Input MP4 File")
+input_file = input("Input video file: ")
 output_file = 'output_audio.mp3'
 
 convert_mp4_to_mp3(input_file, output_file)
-print("====================")
-print("mp4 converted to mp3")
+print("======================")
+print("video converted to mp3")
 
 
 # =======================================
